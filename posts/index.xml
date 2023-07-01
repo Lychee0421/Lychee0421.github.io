@@ -6,7 +6,23 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jul 2023 14:33:48 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 22:04:39 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySecondArticles</title>
+      <link>/posts/mysecondarticles/</link>
+      <pubDate>Sat, 01 Jul 2023 22:04:39 +0800</pubDate>
+      
+      <guid>/posts/mysecondarticles/</guid>
+      <description>
+        
+          
+            #这是我的第二篇博客 内容是我在配置的过程中遇到的问题以及是如何解决的 下载“hugo-theme-clarity-master”安装包后，在解压并打开的过程中将先于它一级的“_MACOSX”错误放在了我在C盘创建的“hugo”文件夹中，导致它的文件路径中两级均含有“hugo-theme-clarity-master”及其子文件。于是在cmd输入“hugo server”时无法正确显示“localhost:1313”的地址。通过删掉“hugo”文件夹中的“_MACOSX”，将“hugo-theme-clarity-master”放在正确的路径下，解决了这个问题，成功得到了“localhost:1313”的地址，说明博客程序已经成功地运行起来了。
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MyFirstArticles</title>
       <link>/posts/myfirstarticles/</link>
